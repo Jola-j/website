@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Circles</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/all.min.css" type="text/css" />
+    <script src="fontawesome/all.min.js"></script>
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- ############ navbar ############# -->
+    <nav
+      class="container navbar navbar-expand-sm bg-light navbar-light fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img src="images/social logo.png" alt="site logo" />
+          Circles
+        </a>
+      </div>
+      <div class="search-div">
+        <input type="text" class="search-input" placeholder="Search" />
+        <span class="fa fa-search search-icon"></span>
+      </div>
+
+      <div class="notifications">
+        <span class="fa fa-bell fa-xl notif"></span>
+        <span class="badge bg-danger" id="badge-icon">4</span>
+      </div>
+
+      <div class="dropdown">
+        <img
+          src="images/profile-1.jpg"
+          alt="img pic"
+          class="rounded-pill dropdown-toggle profile-img"
+          data-bs-toggle="dropdown"
+        />
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ############ navbar ############# -->
+
+    <!-- ############ MAIN ############# -->
+    <div class="main">
+      <div class="container content">
+        <!-- ############ LEFT ############# -->
+        <div class="body leftside">
+          <div class="profile-head p-card">
+            <img src="images/profile-1.jpg" alt="img pic" class="profile-img" />
+            <div class="profile-detail">
+              <span class="p-name">Jane Doe</span>
+              <span class="p-uname">@janedoe</span>
+            </div>
+          </div>
+
+          <div class="sidebar-menu p-card">
+            <div class="menu-item">
+              <span class="icon fa fa-home"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Home</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span class="icon fa fa-compass"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Explore</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span class="icon fa fa-heart"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Likes</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span class="icon fa fa-envelope"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Messages</a>
+              </div>
+            </div>
+
+            <div class="menu-item">
+              <span class="icon fa fa-users"></span>
+              <div class="link-item">
+                <a href="friends.html" class="a-link">Friends</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span class="icon fa fa-comment"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Request</a>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span class="icon fa fa-palette"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Themes</a>
+              </div>
+            </div>
+            <div
+              class="menu-item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#setting-canvas"
+            >
+              <span class="icon fa fa-cog"></span>
+              <div class="link-item">
+                <a href="#" class="a-link">Settings</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ############ MAIN ############# -->
+
+        <!-- ############ MIDDLE ############# -->
+        <div class="body middle p-card" style="width: 100%"></div>
+      </div>
+    </div>
+  </body>
+</html>

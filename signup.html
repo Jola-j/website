@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Circles</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/all.min.css" type="text/css" />
+    <script src="fontawesome/all.min.js"></script>
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+</head>
+
+<body>
+
+
+    <!-- ############ MAIN ############# -->
+    <div class="main">
+        <div class="content" style="padding: 0rem!important;">
+
+            <!-- ############ MIDDLE ############# -->
+            <div class="body middle" style="width: 100%; height: 100%; margin-top: 0px;">
+
+                <div class="row signup-form" style="background: var(--color-black);">
+                    <div class="col-lg-8 col-md-0 left-div"> 
+                        <img src="images/register.jpg" alt="">
+                    </div>
+
+
+
+                    <div class=" col-lg-4 col-md-12" style="background: var(--color-black);">
+                        <form class="reg-form" action="#">
+                            <div class="reg-title">
+                                <img src="images/social logo.png" alt="">
+                                <span class="text-center header">Register</span>
+                            </div>
+                            
+                            <div class="mb-3 mt-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pwd" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="role" class="form-label">Job Role:</label>
+                                <select id="role" name="role" class="form-control">
+                                    <option value="">Select Designation</option>
+                                    <option value="Front-end Developer">Front-end Developer</option>
+                                    <option value="Back-end Developer">Back-end Developer</option>
+                                    <option value="Mobile App Developer">Mobile App Developer</option>
+                                    <option value="UI-UX Designer">UI-UX Designer</option>
+                                    <option value="Fullstack Devepoer">Fullstack Devepoer</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="role" class="form-label">Date of Birth:</label>
+                                <input type="date" class="form-control" id="dob" name="dob" placeholder="Date of Birth" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="gender" class="form-label">Gender:</label>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="gender" id="male"> &nbsp; Male
+                                    </label>
+
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="gender" id="female"> &nbsp; Female 
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="address" class="form-label">Address</label>
+                                <textarea rows="2" class="form-control" name="address" id="address" placeholder="Address" required>
+                                    
+                                </textarea>
+                            </div>
+
+                            <div class="mt-5 mb-3">
+                                <button type="submit" class="btn btn-primary sign-up" style="width:100%">Sign up</button>
+                            </div>
+
+                            <div class="mb-3" style="display: flex; justify-content:center"> Or </div>
+
+                            <div class="social-icons">
+                                <div class="icons">
+                                    <span class="icon F">F</span>
+                                    <span class="icon I">I</span>
+                                    <span class="icon X">X</span>
+                                    <span class="icon G">G</span>
+                                </div>
+
+                                <div style="border-left: thin solid gray;" ></div>
+                                
+                                <div class="btn btn-dark" style="border: thin dotted gray">
+                                    <a href="login.html" class="" style="float: right;">Login</a>
+                                </div>
+                                
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
